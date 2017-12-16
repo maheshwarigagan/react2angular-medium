@@ -1,28 +1,17 @@
 {
-  "name": "AngularJS Boilerplate",
-  "version": "1.1.7",
-  "authors": [
-    "jozef butko <jbutko@gmail.com> / jozefbutko.com/resume"
-  ],
-  "description": "Description goes here",
-  "main": "app.js",
-  "keywords": [
-    "angularjs"
-  ],
+  "name": "angular-phonecat",
+  "description": "A starter project for AngularJS",
+  "version": "0.0.0",
+  "homepage": "https://github.com/angular/angular-phonecat",
   "license": "MIT",
-  "homepage": "https://github.com/jbutko/AngularJS-Boilerplate",
-  "private": false,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
+  "private": true,
   "dependencies": {
-    "angular": "~1.3.13",
-    "angular-route": "~1.3.13",
-    "angular-sanitize": "~1.3.13",
-    "OwlCarousel": "https://github.com/OwlFonk/OwlCarousel.git#~1.3.2"
+    "angular": "1.5.x",
+    "angular-animate": "1.5.x",
+    "angular-mocks": "1.5.x",
+    "angular-resource": "1.5.x",
+    "angular-route": "1.5.x",
+    "bootstrap": "3.3.x",
+    "jquery": "2.2.x"
   }
 }
