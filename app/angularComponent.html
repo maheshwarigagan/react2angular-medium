@@ -1,0 +1,4 @@
+<div ng-repeat="item in $ctrl.bucketlist" ng-sort="item.position">
+  <h2>{{item.city}}</h2>
+  <p> I want to see <span ng-repeat="site in item.sites">{{site}} </span>
+</div>
