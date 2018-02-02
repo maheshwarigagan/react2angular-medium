@@ -4,6 +4,9 @@
   "version": "0.0.0",
   "description": "A tutorial application for AngularJS",
   "license": "MIT",
+  "scripts": {
+    "js": "babel app/index.js --watch --out-file app/app.js"
+  },
   "devDependencies": {
     "bower": "^1.7.7",
     "http-server": "^0.9.0",
@@ -16,6 +19,10 @@
   },
   "dependencies": {
     "angular": "^1.6.6",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-node6": "^11.0.0",
     "react2angular": "^3.1.0"
   }
 }
